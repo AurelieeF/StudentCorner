@@ -50,20 +50,31 @@ nav{
 nav ul{
     display: flex;
     gap: 30px;
-    margin: 0 20px;
-
     list-style: none;
 
     margin: 0;
     padding:0;
+
    
+}
+
+nav ul a{
+   color: #fffdfd;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+
+}
+
+nav ul svg{
+    width: 20px;
+    height: 20px;
+    color: #b2ff23;
+
 }
 
 nav a{
     text-decoration: none;
-    color: #fffdfd;
-    font-family: "Rajdhani", sans-serif;
-    font-size: 20px;
+    
 }
 
 
