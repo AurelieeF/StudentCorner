@@ -5,6 +5,7 @@ body {
 
 }
 
+
 .logo-square {
     display: inline-block;
     width: 40px;
@@ -52,10 +53,18 @@ nav ul{
     gap: 30px;
     list-style: none;
 
-    margin: 0;
+    margin-right: 20px;
     padding:0;
 
    
+}
+
+nav ul a:hover{
+    color: #030130;
+    background-color: #b2ff23;
+    border-radius: 5%;
+    border: 11px solid #b2ff23;
+    font-weight: bold;
 }
 
 nav ul a{
@@ -65,10 +74,19 @@ nav ul a{
 
 }
 
+nav ul a.active{
+    color: #020018;
+    font-weight: bold;
+    background-color: #b2ff23;
+    border-radius: 5%;
+    border: 11px solid #b2ff23;
+
+}
+
 nav ul svg{
     width: 20px;
     height: 20px;
-    color: #b2ff23;
+    color: currentColor;
 
 }
 
